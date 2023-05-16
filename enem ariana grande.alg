@@ -1,20 +1,20 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 28/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
-//seção de declração de variáveis
+//seÃ§Ã£o de declraÃ§Ã£o de variÃ¡veis
 nome,nomemae,nomepai,datanascimento,modal,escolhaescola: caractere
 senha,confirmesenha: inteiro
 
 inicio
-// Seção de Comandos, precidimentos,funções,operadores,etc...
-escreval("seja bem vindo a inserção do enem 2023")
-// inicio do cadastro básico
+// SeÃ§Ã£o de Comandos, precidimentos,funÃ§Ãµes,operadores,etc...
+escreval("seja bem vindo a inserÃ§Ã£o do enem 2023")
+// inicio do cadastro bÃ¡sico
 escreval("nome completo")
 leia(nome)
-escreval("nome da mãe")
+escreval("nome da mÃ£e")
 leia(nomemae)
 escreval("nome do pai")
 leia(nomepai)
@@ -22,30 +22,30 @@ escreval("data de nascimento")
 leia(datanascimento)
 escreval("qual sua modalidade de estudo?")
 leia(modal)
-escreval("você estudou em escola pública ou particular?")
+escreval("vocÃª estudou em escola pÃºblica ou particular?")
 leia(escolhaescola)
-//fim das operações básicas
+//fim das operaÃ§Ãµes bÃ¡sicas
 
 //inicio do cadastro e senha
 repita
-escreval("informe uma senha de 6 números de 0 a 9 números")
+escreval("informe uma senha de 6 nÃºmeros de 0 a 9 nÃºmeros")
 leia(senha)
 escreval("comfirme sua senha")
 leia(confirmesenha)
 
-
+//***
 se senha = confirmesenha entao
 escreval("senha cadastrada com sucesso")
 senao
 se senha <> confirmesenha entao
-escreval("senhas não correspondentes")
+escreval("senhas nÃ£o correspondentes")
 
 fimse
 fimse
 ate senha = confirmesenha
 
 
-escreval("*****pedido recebido aguardando aprovação*****")
+escreval("*****pedido recebido aguardando aprovaÃ§Ã£o*****")
 escreval("nome:", nomemae)
 
 
